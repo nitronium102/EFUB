@@ -5,13 +5,13 @@
 -----
 ## 1. Table
 ### 1) members table
-<img src = "members.png">
+<img src = "members.PNG">
 
 ### 2) position table
-<img src = "position.png">
+<img src = "position.PNG">
 
 ### 3) team
-<img src = "team.png">
+<img src = "team.PNG">
 
 ## 2. Code
 ```sql
@@ -21,7 +21,7 @@ inner join team on team.team_id = members.team_id;
 ```
 
 ## 3. Output
-<img src = "join_result.png">
+<img src = "join_result.PNG">
 
 
 # 02. AWS
