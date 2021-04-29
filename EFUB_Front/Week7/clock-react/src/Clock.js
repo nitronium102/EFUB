@@ -5,6 +5,24 @@ class Clock extends Component {
         super(props);
         this.state = { date: new Date() }; // date라는 state를 지정
     }
+
+    componentDidMount() {
+        this.timerID = setInterval(
+            () => this.tick(),
+            1000
+        );
+    }
+
+    componentWillMount() {
+        clearInterval(this.timerID);
+    }
+
+    tick() {
+        this.setState({
+            date: new Date()
+        });
+    }
+
     render() {
         return (
             <div>
