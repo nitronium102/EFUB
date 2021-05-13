@@ -5,7 +5,7 @@ import logo from "./assets/google.png";
 import menu from "./assets/menu.PNG";
 import search from "./assets/search.PNG";
 import buttons from "./assets/button.PNG";
-import Switch from "./Switch";
+import Switch from "./Switch.js";
 
 const Header = styled.div`
   display: flex;
@@ -120,7 +120,6 @@ margin: 0;
 
 function App() {
   const [themeMode, setThemeMode] = useState('light'); // 테마 모드 세팅
-  const [value, setValue] = useState('false');
 
   // 테마 컬러 설정
   const dark = {
@@ -151,10 +150,8 @@ function App() {
           <Button>이미지</Button>
           <Button>...</Button>
           <Image><img src={profile} style={{ borderRadius: "50%" }} /></Image>
-          <Switch style={{ height: "20px", width: "40px", marginTop: "20px", marginRight: "20px" }}
-            isOn={value}
-            onColor="#EF476F"
-            handleToggle={() => toggleTheme} />
+
+          <button style={{ height: "20px", width: "40px", marginTop: "15px", marginRight: "20px" }} onClick={toggleTheme} >click!  </button>
         </Header>
 
         <Center>
@@ -192,3 +189,8 @@ function App() {
 }
 
 export default App;
+
+// <Switch style={{ height: "20px", width: "40px", marginTop: "20px", marginR ight: "20px" }}
+// isChecked={themeMode}
+// onColor="#EF476F"
+// onChange={toggleTheme} />
