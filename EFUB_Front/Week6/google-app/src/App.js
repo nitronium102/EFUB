@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import profile from "./assets/profile.jpg";
 import logo from "./assets/google.png";
-import menu from "./assets/menu.PNG";
+//import menu from "./assets/menu.PNG";
 import search from "./assets/search.PNG";
 import buttons from "./assets/button.PNG";
 import Switch from "./Switch.js";
@@ -117,12 +117,12 @@ flex-direction: column;
 min-height: 100vh;
 margin: 0;
 `
+const StyledApp = styled.div``;
 
 function App() {
-  const [themeMode, setThemeMode] = useState('light'); // 테마 모드 세팅
+  const [theme, setTheme] = useState("light"); // 테마 모드 세팅
 
-  // 테마 컬러 설정
-  const dark = {
+  const darkTheme = {
     titleColor: '#121212',
     footColor: '#242424',
     bgColor: 'black',
@@ -130,28 +130,20 @@ function App() {
     default: 'black'
   };
 
-  const light = {
+  const lightTheme = {
     titleColor: '#b8b8b8',
     footColor: '#F2F2F2',
     bgColor: 'white'
   };
-
-  const theme = themeMode === 'light' ? light : dark; // 테마 환경별 컬러 가져오기
-  const toggleTheme = () => { // 테마 변경 이벤트
-    setThemeMode(themeMode === 'light' ? 'dark' : 'light');
-    console.log(themeMode);
-  }
-
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <Wrapper>
         <Header>
           <Button>Gmail</Button>
           <Button>이미지</Button>
           <Button>...</Button>
           <Image><img src={profile} style={{ borderRadius: "50%" }} /></Image>
-
-          <button style={{ height: "20px", width: "40px", marginTop: "15px", marginRight: "20px" }} onClick={toggleTheme} >click!  </button>
+          <Switch rounded={true} isToggled={theme} onToggle={() => setTheme(theme === "light" ? setTheme("dark") : setTheme("light"))} />
         </Header>
 
         <Center>
@@ -189,8 +181,3 @@ function App() {
 }
 
 export default App;
-
-// <Switch style={{ height: "20px", width: "40px", marginTop: "20px", marginR ight: "20px" }}
-// isChecked={themeMode}
-// onColor="#EF476F"
-// onChange={toggleTheme} />
