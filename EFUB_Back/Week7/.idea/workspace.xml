@@ -10,48 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07a68f82-443e-482a-99ca-958ce0b4ad3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/common/AfterAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/common/AfterReturningAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/common/AfterThrowingAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/common/AroundAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/common/BeforeAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/common/JDBCUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/common/LogAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/common/PlatformTransactionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/common/PointcutCommon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/controller/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/controller/LogoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/dao/BoardDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/dao/BoardDAOSpring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/dao/BoardRowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/domain/BoardVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/domain/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/service/BoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/service/impl/BoardServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/springbook/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/resources/config/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/webapp/getBoard.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/webapp/getBoardList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/webapp/insertBoard.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/webapp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springmvc/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springmvc/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springmvc/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springmvc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/springbook/SpringmvcApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/test/java/springbook/SpringmvcApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springmvc/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Week8/test-practice" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -106,19 +65,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.41">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All in springMVC (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springMVC" />
       <option name="PACKAGE_NAME" value="" />
@@ -223,9 +169,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 9.0.41" />
       <item itemvalue="JUnit.All in springMVC" />
       <item itemvalue="JUnit.All in springMVC (1)" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.41" />
     </list>
     <recent_temporary>
       <list>
@@ -244,6 +190,8 @@
       <updated>1622127331723</updated>
       <workItem from="1622127338111" duration="1122000" />
       <workItem from="1622128946489" duration="3844000" />
+      <workItem from="1622204113243" duration="136000" />
+      <workItem from="1622204282679" duration="16000" />
     </task>
     <servers />
   </component>
